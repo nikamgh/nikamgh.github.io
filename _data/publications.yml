@@ -1,143 +1,166 @@
-# Add a new paper by dropping an entry at the top of the right year.
-# Optional per-entry field: url (links the title to the PDF or DOI).
+# Generated from main-cv.tex. Add a paper under the right year.
+# Optional per-entry fields: url (links the title), doi, code, slides, selected.
 - year: 2026
   items:
     - title: "GRAINS: Enabling High-Performance and Low-Cost Graph-Based Genome Analysis via Storage-Aware Algorithm-Architecture Co-Design"
-      selected: true
       authors: "Nika Mansouri Ghiasi, Harun Mustafa, Talu Güloglu, Rakesh Nadig, Konstantina Koliogeorgi, Susana Rebolledo Ruiz, Marc Rautmann, Furkan Eris, Mohammad Sadrosadati, Jisung Park, Onur Mutlu"
-      venue: "ISCA, 2026"
-    - title: "RevaMp3D: Architecting the Processor Core and Caches for Systems with Monolithically-Integrated Logic and Memory"
+      venue: "International Symposium on Computer Architecture (ISCA), 2026"
+      url: https://arxiv.org/pdf/2606.26468
       selected: true
-      authors: "Nika Mansouri Ghiasi, Mohammad Sadrosadati, Geraldo F. Oliveira, Konstantinos Kanellopoulos, Rachata Ausavarungnirun, Juan Gómez Luna, João Ferreira, Jeremie S. Kim, Christina Giannoula, Nandita Vijaykumar, Jisung Park, Onur Mutlu"
-      venue: "ACM TACO, 2026"
-    - title: "Towards a decentralized future for open-science databases"
-      selected: true
-      authors: "Gaurav Sharma, Viorel Munteanu, Nika Mansouri Ghiasi, Utkarsha Mahanta, Jineta Banerjee, Susheel Varma, Luca Foschini, Kyle Ellrott, Onur Mutlu, Dumitru Ciorbă, Roel A. Ophoff, Viorel Bostan, Jason H. Moore, Despoina Sousoni, Arunkumar Krishnan, Alexander G. Lucaci, Alba Tull, Christopher E. Mason, Mihai Dimian, Gustavo Stolovitzky, Fabio G. Liberante, Taras K. Oleksyk, Serghei Mangul"
-      venue: "Nature Genetics Comment, 2026"
-    - title: "Rawsamble: Overlapping and Assembling Raw Nanopore Signals using a Hash-based Seeding Mechanism"
-      authors: "Can Firtina, Maximilian Mordig, Harun Mustafa, Sayan Goswami, Nika Mansouri Ghiasi, Stefano Mercogliano, Furkan Eris, Joël Lindegger, Andre Kahles, Onur Mutlu"
-      venue: "Bioinformatics, 2026"
-    - title: "SAGe: A Lightweight Algorithm-Architecture Co-Design for Mitigating the Data Preparation Bottleneck in Large-Scale Genome Analysis"
-      selected: true
+    - title: "SAGe: A Lightweight Algorithm-Architecture Co-Design for Mitigating the Data Preparation Bottleneck in Large-Scale Genome Sequence Analysis"
       authors: "Nika Mansouri Ghiasi, Talu Güloglu, Harun Mustafa, Can Firtina, Konstantina Koliogeorgi, Konstantinos Kanellopoulos, Haiyu Mao, Rakesh Nadig, Mohammad Sadrosadati, Jisung Park, Onur Mutlu"
-      venue: "HPCA, 2026"
-    - title: "Conduit: Programmer-Transparent Near-Data Processing Using Multiple Compute-Capable Resources in SSDs"
+      venue: "International Symposium on High-Performance Computer Architecture (HPCA), 2026"
+      url: https://arxiv.org/pdf/2504.03732
       selected: true
-      authors: "Rakesh Nadig, Vamanan Arulchelvan, Mayank Kabra, Harshita Gupta, Rahul Bera, Nika Mansouri Ghiasi, Nanditha Rao, Qingcai Jiang, Andreas Kakolyris, Yu Lenny Liang, Mohammad Sadrosadati, Onur Mutlu"
-      venue: "HPCA, 2026"
+    - title: "RevaMp3D: Architecting the Processor Core and Cache Hierarchy for Systems with Monolithically-Integrated Logic and Memory"
+      authors: "Nika Mansouri Ghiasi, Mohammad Sadrosadati, Geraldo F. Oliveira, Konstantinos Kanellopoulos, Rachata Ausavarungnirun, Juan Gómez-Luna, João Dinis Ferreira, Jeremie S. Kim, Christina Giannoula, Nandita Vijaykumar, Jisung Park, Onur Mutlu"
+      venue: "ACM Transactions on Architecture and Code Optimization (TACO), 2026"
+      url: https://dl.acm.org/doi/epdf/10.1145/3822173
+      selected: true
+    - title: "Towards a decentralized future for open-science databases"
+      authors: "Gaurav Sharma, Viorel Munteanu, Nika Mansouri Ghiasi, Utkarsha Mahanta, Jineta Banerjee, Susheel Varma, Luca Foschini, Kyle Ellrott, Onur Mutlu, Dumitru Ciorbă, Roel A. Ophoff, Viorel Bostan, Jason H. Moore, Despoina Sousoni, Arunkumar Krishnan, Alexander G. Lucaci, Alba Tull, Christopher E. Mason, Mihai Dimian, Gustavo Stolovitzky, Fabio G. Liberante, Taras K. Oleksyk, Serghei Mangul"
+      venue: "Nature Genetics, 2026"
+      url: https://www.nature.com/articles/s41588-026-02606-x
+      selected: true
+    - title: "Rawsamble: Overlapping and Assembling Raw Nanopore Signals using a Hash-based Seeding Mechanism"
+      authors: "Can Firtina, Maximilian Mordig, Harun Mustafa, Sayan Goswami, Nika Mansouri Ghiasi, Stefano Mercogliano, Furkan Eris, Joël Lindegger, André Kahles, Onur Mutlu"
+      venue: "Bioinformatics, 2026"
+      url: https://arxiv.org/pdf/2410.17801.pdf
+    - title: "Conduit: Programmer-Transparent Near-Data Processing Using Multiple Compute-Capable Resources in SSDs"
+      authors: "Rakesh Nadig, Vamanan Arulchelvan, Mayank Kabra, Harshita Gupta, Rahul Bera, Nika Mansouri Ghiasi, Nanditha Rao, Qingcai Jiang, Andreas Kosmas Kakolyris, Yu Liang, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "International Symposium on High-Performance Computer Architecture (HPCA), 2026"
+      url: https://www.arxiv.org/pdf/2601.17633
+      selected: true
     - title: "GenPairX: A Hardware-Algorithm Co-Designed Accelerator for Paired-End Read Mapping"
       authors: "Julien Eudine, Chu Li, Zhuo Cheng, Renzo Andri, Can Firtina, Mohammad Sadrosadati, Nika Mansouri Ghiasi, Konstantina Koliogeorgi, Anirban Nag, Arash Tavakkol, Haiyu Mao, Onur Mutlu, Shai Bergman, Ji Zhang"
-      venue: "HPCA, 2026"
-
+      venue: "International Symposium on High-Performance Computer Architecture (HPCA), 2026"
+      url: https://arxiv.org/pdf/2601.19384
 - year: 2025
   items:
     - title: "REIS: A High-Performance and Energy-Efficient Retrieval System with In-Storage Processing"
-      selected: true
       authors: "Kangqi Chen, Rakesh Nadig, Andreas Kosmas Kakolyris, Manos Frouzakis, Nika Mansouri Ghiasi, Yu Liang, Haiyu Mao, Jisung Park, Mohammad Sadrosadati, Onur Mutlu"
-      venue: "ISCA, 2025"
-    - title: "MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem"
-      authors: "Melina Soysal, Konstantina Koliogeorgi, Can Firtina, Nika Mansouri Ghiasi, Rakesh Nadig, Haiyu Mao, Geraldo Francisco, Yu Liang, Klea Zambaku, Mohammad Sadrosadati, Onur Mutlu"
-      venue: "ICS, 2025"
-    - title: "Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory"
-      authors: "Nisa Bostanci, Konstantinos Kanellopoulos, Ataberk Olgun, A. Giray Yaglikci, Ismail Emir Yuksel, Nika Mansouri Ghiasi, Zulal Bingol, Mohammad Sadrosadati, Onur Mutlu"
-      venue: "DSN, 2025"
-    - title: "Analysis of metagenomic data"
+      venue: "International Symposium on Computer Architecture (ISCA), 2025"
+      url: https://arxiv.org/pdf/2506.16444
       selected: true
-      authors: "S. Liu, J. S. Rodriguez, V. Munteanu, C. Ronkowski, N. Kumar Sharma, M. Alser, F. Andreace, R. Blekhman, D. Blaszczyk, R. Chikhi, K. A. Crandall, K. Della Libera, D. Francis, A. Frolova, A. Shahar Gancz, N. E. Huntley, P. Jaiswal, T. Kosciolek, P. P. Labaj, W. Labaj, T. Luan, Ch. Mason, A. M. Moustafa, H. Subrahmaniam Muralidharan, O. Mutlu, N. Mansouri Ghiasi, A. Rahnavard, F. Sun, S. Tian, B. T. Tierney, E. Van Syoc, R. Vicedomini, J. P. Zackular, A. Zelikovsky, K. Zielińska, E. Ganda, E. R. Davenport, M. Pop, D. Koslicki, S. Mangul"
+    - title: "MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem"
+      authors: "Melina Soysal, Konstantina Koliogeorgi, Can Firtina, Nika Mansouri Ghiasi, Rakesh Nadig, Haiyu Mao, Geraldo F. Oliveira, Yu Liang, Klea Zambaku, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "ACM International Conference on Supercomputing (ICS), 2025"
+      url: https://arxiv.org/pdf/2506.10931
+    - title: "Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory"
+      authors: "Nisa Bostanci, Konstantinos Kanellopoulos, Ataberk Olgun, Abdullah Giray Yaglikci, Ismail Emir Yuksel, Nika Mansouri Ghiasi, Zulal Bingol, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), 2025"
+      url: https://arxiv.org/pdf/2404.11284
+    - title: "Analysis of metagenomic data"
+      authors: "Shaopeng Liu, Judith S. Rodriguez, Viorel Munteanu, Cynthia Ronkowski, Nitesh Kumar Sharma, Mohammed Alser, Francesco Andreace, Ran Blekhman, Dagmara Błaszczyk, Rayan Chikhi, Keith A. Crandall, Katja Della Libera, Dallace Francis, Alina Frolova, Abigail Shahar Gancz, Naomi E. Huntley, Pooja Jaiswal, Tomasz Kosciolek, Pawel P. Łabaj, Wojciech Łabaj, Tu Luan, Christopher Mason, Ahmed M. Moustafa, Harihara Subrahmaniam Muralidharan, Onur Mutlu, Nika Mansouri Ghiasi, Ali Rahnavard, Fengzhu Sun, Shuchang Tian, Braden T. Tierney, Emily Van Syoc, Riccardo Vicedomini, Joseph P. Zackular, Alex Zelikovsky, Kinga Zielińska, Erika Ganda, Emily R. Davenport, Mihai Pop, David Koslicki, Serghei Mangul"
       venue: "Nature Reviews Methods Primers, 2025"
+      url: https://www.nature.com/articles/s43586-024-00376-6
+      selected: true
     - title: "Ariadne: Hotness-Aware and Size-Adaptive Compressed Swap Scheme for Mobile Devices"
-      authors: "Y. Liang, A. Shen, C. J. Xue, R. Pan, H. Mao, N. Mansouri Ghiasi, Q. Jiang, R. Nadig, L. Li, R. Ausavarungnirun, M. Sadrosadati, O. Mutlu"
-      venue: "HPCA, 2025"
-
+      authors: "Yu Liang, Aofeng Shen, Chun Jason Xue, Riwei Pan, Haiyu Mao, Nika Mansouri Ghiasi, Qingcai Jiang, Rakesh Nadig, Lei Li, Rachata Ausavarungnirun, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "International Symposium on High-Performance Computer Architecture (HPCA), 2025"
+      url: https://arxiv.org/pdf/2502.12826
 - year: 2024
   items:
     - title: "MegIS: High-Performance, Energy-Efficient, and Low-Cost Metagenomic Analysis with In-Storage Processing"
+      authors: "Nika Mansouri Ghiasi, Mohammad Sadrosadati, Harun Mustafa, Arvid Gollwitzer, Can Firtina, Julien Eudine, Haiyu Mao, Joël Lindegger, Meryem Banu Cavlak, Mohammed Alser, Jisung Park, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2024"
+      url: https://arxiv.org/pdf/2406.19113
       selected: true
-      authors: "N. Mansouri Ghiasi, M. Sadrosadati, H. Mustafa, A. Gollwitzer, C. Firtina, J. Eudine, H. Ma, J. Lindegger, M. Banu Cavlak, M. Alser, J. Park, O. Mutlu"
-      venue: "ISCA, 2024"
-    - title: "Understanding and Modeling the Performance Landscape of Ultra-Dense 3D Memory Systems"
-      selected: true
-      authors: "N. Mansouri Ghiasi, O. Mutlu"
-      venue: "PACT ACM Student Research Competition, 2024"
-    - title: "Label-Guided Seed-Chain-Extend Alignment on Annotated De Bruijn Graphs"
-      authors: "H. Mustafa, M. Karasikov, N. Mansouri Ghiasi, G. Rätsch, A. Kahles"
-      venue: "ISMB, 2024"
-    - title: "MATSA: An MRAM-Based Energy-Efficient Accelerator for Time Series Analysis"
-      authors: "I. Fernandez, C. Giannoula, A. Manglik, R. Quislant, N. Mansouri Ghiasi, J. Gomez-Luna, E. Gutierrez, O. Plata, O. Mutlu"
+    - title: "RawAlign: Accurate, Fast, and Scalable Raw Nanopore Signal Mapping via Combining Seeding and Alignment"
+      authors: "Joël Lindegger, Can Firtina, Nika Mansouri Ghiasi, Mohammad Sadrosadati, Mohammed Alser, Onur Mutlu"
       venue: "IEEE Access, 2024"
-
+      url: https://arxiv.org/pdf/2310.05037
+    - title: "Label-Guided Seed-Chain-Extend Alignment on Annotated De Bruijn Graphs"
+      authors: "Harun Mustafa, Mikhail Karasikov, Nika Mansouri Ghiasi, Gunnar Rätsch, André Kahles"
+      venue: "Annual Conference on Intelligent Systems for Molecular Biology (ISMB), 2024"
+      url: https://academic.oup.com/bioinformatics/article/40/Supplement_1/i337/7700889
+    - title: "MATSA: An MRAM-Based Energy-Efficient Accelerator for Time Series Analysis"
+      authors: "Ivan Fernandez, Christina Giannoula, Aditya Manglik, Ricardo Quislant, Nika Mansouri Ghiasi, Juan Gómez-Luna, Eladio Gutierrez, Oscar Plata, Onur Mutlu"
+      venue: "IEEE Access, 2024"
+      url: https://arxiv.org/pdf/2211.04369
+    - title: "Understanding and Modeling the Performance Landscape of Ultra-Dense 3D Memory Systems"
+      authors: "Nika Mansouri Ghiasi, Onur Mutlu"
+      venue: "ACM Student Research Competition at the International Conference on Parallel Architectures and Compilation Techniques (PACT SRC), 2024"
+      selected: true
 - year: 2023
   items:
-    - title: "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses"
-      selected: true
-      authors: "R. Nadig, M. Sadrosadati, H. Mao, N. Mansouri Ghiasi, A. Tavakkol, J. Park, H. Sarbazi-Azad, J. Luna, O. Mutlu"
-      venue: "ISCA, 2023"
-    - title: "RawHash: Enabling Fast and Accurate Real-Time Analysis of Raw Nanopore Signals for Large Genomes"
-      selected: true
-      authors: "C. Firtina, N. Mansouri Ghiasi, J. Lindegger, G. Singh, M. Banu Cavlak, H. Mao, O. Mutlu"
-      venue: "ISMB, 2023"
     - title: "Scrooge: A Fast and Memory-Frugal Genomic Sequence Aligner for CPUs, GPUs, and ASICs"
-      authors: "J. Lindegger, D. Senol Cali, M. Alser, J. Gómez-Luna, N. Mansouri Ghiasi, O. Mutlu"
+      authors: "Joël Lindegger, Damla Senol Cali, Mohammed Alser, Juan Gómez-Luna, Nika Mansouri Ghiasi, Onur Mutlu"
       venue: "Bioinformatics, 2023"
+      url: https://arxiv.org/pdf/2208.09985.pdf
     - title: "TargetCall: Eliminating the Wasted Computation in Basecalling via Pre-Basecalling Filtering"
-      authors: "M. B. Cavlak, G. Singh, M. Alser, C. Firtina, J. Lindegger, M. Sadrosadati, N. Mansouri Ghiasi, C. Alkan, O. Mutlu"
-      venue: "APBC, 2023"
+      authors: "Meryem Banu Cavlak, Gagandeep Singh, Mohammed Alser, Can Firtina, Joël Lindegger, Mohammad Sadrosadati, Nika Mansouri Ghiasi, Can Alkan, Onur Mutlu"
+      venue: "Asia Pacific Bioinformatics Conference (APBC), 2023"
+      url: https://arxiv.org/pdf/2212.04953.pdf
+    - title: "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses"
+      authors: "Rakesh Nadig, Mohammad Sadrosadati, Haiyu Mao, Nika Mansouri Ghiasi, Arash Tavakkol, Jisung Park, Hamid Sarbazi-Azad, Juan Gómez-Luna, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2023"
+      url: https://arxiv.org/pdf/2305.07768.pdf
+      selected: true
+    - title: "RawHash: Enabling Fast and Accurate Real-Time Analysis of Raw Nanopore Signals for Large Genomes"
+      authors: "Can Firtina, Nika Mansouri Ghiasi, Joël Lindegger, Gagandeep Singh, Meryem Banu Cavlak, Haiyu Mao, Onur Mutlu"
+      venue: "Annual Conference on Intelligent Systems for Molecular Biology and European Conference on Computational Biology (ISMB/ECCB), 2023"
+      url: https://arxiv.org/pdf/2301.09200.pdf
+      selected: true
     - title: "BLEND: A Fast, Memory-Efficient, and Accurate Mechanism to Find Fuzzy Seed Matches"
-      authors: "C. Firtina, J. Park, J. S. Kim, M. Alser, D. Senol Cali, T. Shahroodi, N. Mansouri Ghiasi, G. Singh, K. Kanellopoulos, C. Alkan, O. Mutlu"
+      authors: "Can Firtina, Jisung Park, Jeremie S. Kim, Mohammed Alser, Damla Senol Cali, Taha Shahroodi, Nika Mansouri Ghiasi, Gagandeep Singh, Konstantinos Kanellopoulos, Can Alkan, Onur Mutlu"
       venue: "NAR Genomics and Bioinformatics, 2023"
-
+      url: https://arxiv.org/pdf/2112.08687.pdf
 - year: 2022
   items:
     - title: "GenStore: A High-Performance In-Storage Processing System for Genome Sequence Analysis"
+      authors: "Nika Mansouri Ghiasi, Jisung Park, Harun Mustafa, Jeremie S. Kim, Ataberk Olgun, Arvid Gollwitzer, Damla Senol Cali, Can Firtina, Haiyu Mao, Nour Almadhoun Alserr, Rachata Ausavarungnirun, Nandita Vijaykumar, Mohammed Alser, Onur Mutlu"
+      venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2022"
+      url: /assets/papers/genstore-asplos22.pdf
       selected: true
-      authors: "N. Mansouri Ghiasi, J. Park, H. Mustafa, J. Kim, A. Olgun, A. Gollwitzer, D. Senol Cali, C. Firtina, H. Mao, N. Almadhoun Alserr, R. Ausavarungnirun, N. Vijaykumar, M. Alser, O. Mutlu"
-      venue: "ASPLOS, 2022"
     - title: "ALP: Alleviating CPU-Memory Data Movement Overheads in Memory-Centric Systems"
+      authors: "Nika Mansouri Ghiasi, Nandita Vijaykumar, Geraldo F. Oliveira, Lois Orosa, Ivan Fernandez, Mohammad Sadrosadati, Konstantinos Kanellopoulos, Nastaran Hajinazar, Juan Gómez-Luna, Onur Mutlu"
+      venue: "IEEE Transactions on Emerging Topics in Computing (IEEE TETC), 2022"
+      url: https://arxiv.org/pdf/2212.06292
       selected: true
-      authors: "N. Mansouri Ghiasi, N. Vijaykumar, G. F. Oliveira, L. Orosa, I. Fernandez, M. Sadrosadati, K. Kanellopoulos, N. Hajinazar, J. Gómez Luna, O. Mutlu"
-      venue: "IEEE TETC, 2022"
-    - title: "RevaMp3D: Architecting the Processor Core and Cache Hierarchy for Systems with Monolithically-Integrated Logic and Memory"
-      authors: "N. Mansouri Ghiasi, M. Sadrosadati, G. F. Oliveira, K. Kanellopoulos, R. Ausavarungnirun, J. Gómez Luna, A. Manglik, J. Ferreira, J. S. Kim, C. Giannoula, N. Vijaykumar, J. Park, O. Mutlu"
-      venue: "arXiv, 2022"
     - title: "SeGraM: A Universal Hardware Accelerator for Genomic Sequence-to-Graph and Sequence-to-Sequence Mapping"
-      authors: "D. Senol Cali, K. Kanellopoulos, J. Lindegger, Z. Bingol, G. S. Kalsi, Z. Zuo, C. Firtina, M. B. Cavlak, J. Kim, N. Mansouri Ghiasi, G. Singh, J. Gomez-Luna, N. Almadhoun Alserr, M. Alser, S. Subramoney, C. Alkan, S. Ghose, O. Mutlu"
-      venue: "ISCA, 2022"
-
+      authors: "Damla Senol Cali, Konstantinos Kanellopoulos, Joël Lindegger, Zulal Bingol, Gurpreet S. Kalsi, Ziyi Zuo, Can Firtina, Meryem Banu Cavlak, Jeremie S. Kim, Nika Mansouri Ghiasi, Gagandeep Singh, Juan Gómez-Luna, Nour Almadhoun Alserr, Mohammed Alser, Sreenivas Subramoney, Can Alkan, Saugata Ghose, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2022"
+      url: /assets/papers/segram-isca22.pdf
 - year: 2021
   items:
     - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
-      authors: "L. Orosa, Y. Wang, M. Sadrosadati, J. S. Kim, M. Patel, I. Puddu, H. Luo, K. Razavi, J. Gómez-Luna, H. Hassan, N. Mansouri Ghiasi, S. Ghose, O. Mutlu"
-      venue: "ISCA, 2021"
+      authors: "Lois Orosa, Yaohua Wang, Mohammad Sadrosadati, Jeremie S. Kim, Minesh Patel, Ivan Puddu, Haocong Luo, Kaveh Razavi, Juan Gómez-Luna, Hasan Hassan, Nika Mansouri Ghiasi, Saugata Ghose, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2021"
+      url: https://arxiv.org/pdf/2106.05632
     - title: "SIMDRAM: A Framework for Bit-Serial SIMD Processing Using DRAM"
-      authors: "N. Hajinazar, G. F. Oliveira, S. Gregorio, J. Dinis Ferreira, N. Mansouri Ghiasi, M. Patel, M. Alser, S. Ghose, J. Gómez-Luna, O. Mutlu"
-      venue: "ASPLOS, 2021"
-
+      authors: "Nastaran Hajinazar, Geraldo F. Oliveira, Sven Gregorio, João Dinis Ferreira, Nika Mansouri Ghiasi, Minesh Patel, Mohammed Alser, Saugata Ghose, Juan Gómez-Luna, Onur Mutlu"
+      venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2021"
+      url: https://arxiv.org/pdf/2012.11890
 - year: 2020
   items:
     - title: "FIGARO: Improving System Performance via Fine-Grained In-DRAM Data Relocation and Caching"
-      authors: "Y. Wang, L. Orosa, X. Peng, Y. Guo, S. Ghose, M. Patel, J. S. Kim, J. Gómez-Luna, M. Sadrosadati, N. Mansouri Ghiasi, O. Mutlu"
-      venue: "MICRO, 2020"
-
+      authors: "Yaohua Wang, Lois Orosa, Xiangjun Peng, Yang Guo, Saugata Ghose, Minesh Patel, Jeremie S. Kim, Juan Gómez-Luna, Mohammad Sadrosadati, Nika Mansouri Ghiasi, Onur Mutlu"
+      venue: "International Symposium on Microarchitecture (MICRO), 2020"
+      url: https://arxiv.org/pdf/2009.08437
 - year: 2019
   items:
     - title: "SMASH: Co-designing Software Compression and Hardware-Accelerated Indexing for Efficient Sparse Matrix Operations"
-      authors: "K. Kanellopoulos, N. Vijaykumar, C. Giannoula, R. Azizi Barzoki, S. Koppula, N. Mansouri Ghiasi, T. Shahroodi, J. Gómez-Luna, O. Mutlu"
-      venue: "MICRO, 2019"
+      authors: "Konstantinos Kanellopoulos, Nandita Vijaykumar, Christina Giannoula, Roknoddin Azizi, Skanda Koppula, Nika Mansouri Ghiasi, Taha Shahroodi, Juan Gómez-Luna, Onur Mutlu"
+      venue: "International Symposium on Microarchitecture (MICRO), 2019"
+      url: /assets/papers/smash-micro19.pdf
     - title: "CROW: A Low-Overhead Substrate for Improving DRAM Performance and Energy-Efficiency"
-      authors: "H. Hassan, M. Patel, J. S. Kim, A. G. Yaglikci, N. Vijaykumar, N. Mansouri Ghiasi, S. Ghose, O. Mutlu"
-      venue: "ISCA, 2019"
-
+      authors: "Hasan Hassan, Minesh Patel, Jeremie S. Kim, Abdullah Giray Yaglikci, Nandita Vijaykumar, Nika Mansouri Ghiasi, Saugata Ghose, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2019"
+      url: /assets/papers/crow-isca19.pdf
 - year: 2018
   items:
     - title: "Reducing DRAM Latency via Charge-Level-Aware Look-Ahead Partial Restoration"
-      authors: "Y. Wang, A. Tavakkol, L. Orosa, S. Ghose, N. Mansouri Ghiasi, M. Patel, J. S. Kim, H. Hassan, M. Sadrosadati, O. Mutlu"
-      venue: "MICRO, 2018"
+      authors: "Yaohua Wang, Arash Tavakkol, Lois Orosa, Saugata Ghose, Nika Mansouri Ghiasi, Minesh Patel, Jeremie S. Kim, Hasan Hassan, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "International Symposium on Microarchitecture (MICRO), 2018"
+      url: /assets/papers/cal-dram-micro18.pdf
     - title: "FLIN: Enabling Fairness and Enhancing Performance in Modern NVMe Solid State Drives"
-      authors: "A. Tavakkol, M. Sadrosadati, S. Ghose, J. S. Kim, Y. Luo, Y. Wang, N. Mansouri Ghiasi, L. Orosa, J. Gómez-Luna, O. Mutlu"
-      venue: "ISCA, 2018"
-
+      authors: "Arash Tavakkol, Mohammad Sadrosadati, Saugata Ghose, Jeremie S. Kim, Yixin Luo, Yaohua Wang, Nika Mansouri Ghiasi, Lois Orosa, Juan Gómez-Luna, Onur Mutlu"
+      venue: "International Symposium on Computer Architecture (ISCA), 2018"
+      url: https://ieeexplore.ieee.org/document/8416843
 - year: 2017
   items:
     - title: "Efficient Critical Path Identification Based on Viability Analysis Method Considering Process Variations"
-      authors: "S. Abolmaali, N. Mansouri Ghiasi, M. Kamal, A. Afzali-Kusha, M. Pedram"
-      venue: "IEEE TVLSI, September 2017"
+      authors: "Sheis Abolmaali, Nika Mansouri Ghiasi, Mehdi Kamal, Ali Afzali-Kusha, Massoud Pedram"
+      venue: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems, 2017"
+      url: https://ieeexplore.ieee.org/document/7934409

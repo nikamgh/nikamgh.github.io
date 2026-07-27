@@ -24,14 +24,16 @@ If you publish from a project repo instead (e.g. `github.com/<user>/website`), s
     - title: "TAGMa: ..."
       authors: "Nika Mansouri Ghiasi, ..."
       venue: "MICRO, 2026"
-      url: https://arxiv.org/abs/...        # optional → PDF button
+      url: https://arxiv.org/abs/...        # optional → links the title
       doi: https://doi.org/...              # optional → DOI button
       code: https://github.com/...          # optional → Code button
       slides: https://.../slides.pdf        # optional → Slides button
       selected: true                        # optional → also on the homepage
 ```
 
-Your name is bolded automatically, in both the full form and the `N. Mansouri Ghiasi` abbreviation.
+Your name is bolded automatically. The list is generated from `main-cv.tex`, so keep the two in sync when you add papers.
+
+To host a PDF yourself rather than linking out, drop it in `assets/papers/` and set `url: /assets/papers/<name>.pdf`. See `assets/papers/README.md` — five entries are already pointed there and need their files downloaded once.
 
 ## Add a page
 
@@ -63,6 +65,7 @@ Copy `honors.html`, change the `title` and `permalink` in the front matter, then
 | `assets/css/style.css` | All styling; palette is the `:root` block at the top |
 | `assets/js/site.js` | Mobile menu toggle |
 | `assets/img/nika.jpg` | Headshot |
+| `assets/papers/` | Self-hosted paper PDFs |
 
 ## Change the accent colour
 
