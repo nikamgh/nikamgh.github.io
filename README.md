@@ -64,7 +64,7 @@ Copy `honors.html`, change the `title` and `permalink` in the front matter, then
 | `_includes/pub-item.html` | How one citation renders |
 | `assets/css/style.css` | All styling; palette is the `:root` block at the top |
 | `assets/js/site.js` | Mobile menu toggle |
-| `assets/img/nika.jpg` | Headshot |
+| `assets/img/nika.jpeg` | Headshot |
 | `assets/papers/` | Self-hosted paper PDFs |
 
 ## Change the accent colour
