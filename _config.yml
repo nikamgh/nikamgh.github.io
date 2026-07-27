@@ -1,3 +1,26 @@
-theme: jekyll-theme-minimal
-title: Nika's homepage
-description: under construction!
+title: Nika Mansouri Ghiasi
+tagline: Postdoctoral Researcher, SAFARI Research Group, ETH Zurich
+description: >-
+  Nika Mansouri Ghiasi researches computer architecture and computational
+  biology, designing high-performance, energy-efficient, and low-cost systems
+  for genomics, metagenomics, and health applications.
+email: n.mansorighiasi [AT] gmail.com
+scholar: https://scholar.google.com/citations?user=lMuBESUAAAAJ&hl=en
+
+# Leave empty for a user site (nikamansourighiasi.github.io).
+# Set to "/repo-name" if you publish from a project repo instead.
+baseurl: ""
+url: "https://nikamansourighiasi.github.io"
+
+nav:
+  - { name: Bio,                    url: /            }
+  - { name: Publications,           url: /publications/ }
+  - { name: Honors & Awards,        url: /honors/     }
+  - { name: Education & Experience, url: /education/  }
+  - { name: Teaching,               url: /teaching/   }
+
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

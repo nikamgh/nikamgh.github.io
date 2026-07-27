@@ -1,0 +1,70 @@
+---
+layout: default
+title: Bio
+permalink: /
+---
+
+<section class="intro">
+  <p class="lede">
+    I am a postdoctoral researcher in the <a href="https://safari.ethz.ch/">SAFARI Research Group</a>
+    at <a href="https://ethz.ch/en.html">ETH Zurich</a>. I completed my PhD in the same group, advised by
+    <a href="https://people.inf.ethz.ch/omutlu/">Prof. Onur Mutlu</a>, and spent one semester as a visiting
+    researcher at the <a href="https://rsg.stanford.edu/">Robust Systems Group</a> at
+    <a href="https://www.stanford.edu/">Stanford University</a>, working with
+    <a href="https://web.stanford.edu/~subh/">Prof. Subhasish Mitra</a>.
+  </p>
+
+  <p>
+    My research is at the intersection of computer architecture and computational biology. I work on
+    (1) storage systems, large-scale bioinformatics applications, and their interactions, and
+    (2) emerging technologies such as ultra-dense 3D integrated systems. I design high-performance,
+    energy-efficient, and low-cost systems that make the data-intensive applications behind modern
+    healthcare and life sciences practical at scale.
+  </p>
+
+  <p>
+    Before my PhD I obtained my master's degree from ETH Zurich, also advised by Prof. Onur Mutlu, and my
+    bachelor's degree from the University of Tehran, advised by Prof. Ali Afzali-Kusha and Dr. Mehdi Kamal.
+  </p>
+</section>
+
+<section class="block">
+  <h2 class="h2">News</h2>
+  <ul class="news">
+    {% for item in site.data.news limit: 8 %}
+    <li class="news__item">
+      <span class="news__date">{{ item.date }}</span>
+      <span class="news__text">{{ item.text }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+
+  {% if site.data.news.size > 8 %}
+  <details class="more">
+    <summary>Earlier news</summary>
+    <ul class="news">
+      {% for item in site.data.news offset: 8 %}
+      <li class="news__item">
+        <span class="news__date">{{ item.date }}</span>
+        <span class="news__text">{{ item.text }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>
+
+<section class="block">
+  <h2 class="h2">Selected publications</h2>
+  <p class="note">
+    Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a>
+    or on <a href="{{ site.scholar }}">Google Scholar</a>.
+  </p>
+
+  {% assign selected = "" | split: "" %}
+  {% for group in site.data.publications %}
+    {% assign hits = group.items | where: "selected", true %}
+    {% assign selected = selected | concat: hits %}
+  {% endfor %}
+  {% include pub-flat.html items=selected %}
+</section>

@@ -1,0 +1,26 @@
+{%- comment -%}
+Renders a year-grouped publication list.
+Usage: {% include pub-list.html groups=site.data.publications %}
+{%- endcomment -%}
+<div class="pubs">
+  {% for group in include.groups %}
+  <section class="pubs__year">
+    <h3 class="pubs__yearmark">{{ group.year }}</h3>
+    <ol class="pubs__list">
+      {% for pub in group.items %}
+      <li class="pub">
+        <p class="pub__title">
+          {% if pub.url %}<a href="{{ pub.url }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+        </p>
+        <p class="pub__authors">
+          {{ pub.authors
+             | replace: 'Nika Mansouri Ghiasi', '<b>Nika Mansouri Ghiasi</b>'
+             | replace: 'N. Mansouri Ghiasi', '<b>N. Mansouri Ghiasi</b>' }}
+        </p>
+        <p class="pub__venue">{{ pub.venue }}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</div>

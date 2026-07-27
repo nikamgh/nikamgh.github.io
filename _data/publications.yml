@@ -1,0 +1,143 @@
+# Add a new paper by dropping an entry at the top of the right year.
+# Optional per-entry field: url (links the title to the PDF or DOI).
+- year: 2026
+  items:
+    - title: "GRAINS: Enabling High-Performance and Low-Cost Graph-Based Genome Analysis via Storage-Aware Algorithm-Architecture Co-Design"
+      selected: true
+      authors: "Nika Mansouri Ghiasi, Harun Mustafa, Talu Güloglu, Rakesh Nadig, Konstantina Koliogeorgi, Susana Rebolledo Ruiz, Marc Rautmann, Furkan Eris, Mohammad Sadrosadati, Jisung Park, Onur Mutlu"
+      venue: "ISCA, 2026"
+    - title: "RevaMp3D: Architecting the Processor Core and Caches for Systems with Monolithically-Integrated Logic and Memory"
+      selected: true
+      authors: "Nika Mansouri Ghiasi, Mohammad Sadrosadati, Geraldo F. Oliveira, Konstantinos Kanellopoulos, Rachata Ausavarungnirun, Juan Gómez Luna, João Ferreira, Jeremie S. Kim, Christina Giannoula, Nandita Vijaykumar, Jisung Park, Onur Mutlu"
+      venue: "ACM TACO, 2026"
+    - title: "Towards a decentralized future for open-science databases"
+      selected: true
+      authors: "Gaurav Sharma, Viorel Munteanu, Nika Mansouri Ghiasi, Utkarsha Mahanta, Jineta Banerjee, Susheel Varma, Luca Foschini, Kyle Ellrott, Onur Mutlu, Dumitru Ciorbă, Roel A. Ophoff, Viorel Bostan, Jason H. Moore, Despoina Sousoni, Arunkumar Krishnan, Alexander G. Lucaci, Alba Tull, Christopher E. Mason, Mihai Dimian, Gustavo Stolovitzky, Fabio G. Liberante, Taras K. Oleksyk, Serghei Mangul"
+      venue: "Nature Genetics Comment, 2026"
+    - title: "Rawsamble: Overlapping and Assembling Raw Nanopore Signals using a Hash-based Seeding Mechanism"
+      authors: "Can Firtina, Maximilian Mordig, Harun Mustafa, Sayan Goswami, Nika Mansouri Ghiasi, Stefano Mercogliano, Furkan Eris, Joël Lindegger, Andre Kahles, Onur Mutlu"
+      venue: "Bioinformatics, 2026"
+    - title: "SAGe: A Lightweight Algorithm-Architecture Co-Design for Mitigating the Data Preparation Bottleneck in Large-Scale Genome Analysis"
+      selected: true
+      authors: "Nika Mansouri Ghiasi, Talu Güloglu, Harun Mustafa, Can Firtina, Konstantina Koliogeorgi, Konstantinos Kanellopoulos, Haiyu Mao, Rakesh Nadig, Mohammad Sadrosadati, Jisung Park, Onur Mutlu"
+      venue: "HPCA, 2026"
+    - title: "Conduit: Programmer-Transparent Near-Data Processing Using Multiple Compute-Capable Resources in SSDs"
+      selected: true
+      authors: "Rakesh Nadig, Vamanan Arulchelvan, Mayank Kabra, Harshita Gupta, Rahul Bera, Nika Mansouri Ghiasi, Nanditha Rao, Qingcai Jiang, Andreas Kakolyris, Yu Lenny Liang, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "HPCA, 2026"
+    - title: "GenPairX: A Hardware-Algorithm Co-Designed Accelerator for Paired-End Read Mapping"
+      authors: "Julien Eudine, Chu Li, Zhuo Cheng, Renzo Andri, Can Firtina, Mohammad Sadrosadati, Nika Mansouri Ghiasi, Konstantina Koliogeorgi, Anirban Nag, Arash Tavakkol, Haiyu Mao, Onur Mutlu, Shai Bergman, Ji Zhang"
+      venue: "HPCA, 2026"
+
+- year: 2025
+  items:
+    - title: "REIS: A High-Performance and Energy-Efficient Retrieval System with In-Storage Processing"
+      selected: true
+      authors: "Kangqi Chen, Rakesh Nadig, Andreas Kosmas Kakolyris, Manos Frouzakis, Nika Mansouri Ghiasi, Yu Liang, Haiyu Mao, Jisung Park, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "ISCA, 2025"
+    - title: "MARS: Processing-In-Memory Acceleration of Raw Signal Genome Analysis Inside the Storage Subsystem"
+      authors: "Melina Soysal, Konstantina Koliogeorgi, Can Firtina, Nika Mansouri Ghiasi, Rakesh Nadig, Haiyu Mao, Geraldo Francisco, Yu Liang, Klea Zambaku, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "ICS, 2025"
+    - title: "Revisiting Main Memory-Based Covert and Side Channel Attacks in the Context of Processing-in-Memory"
+      authors: "Nisa Bostanci, Konstantinos Kanellopoulos, Ataberk Olgun, A. Giray Yaglikci, Ismail Emir Yuksel, Nika Mansouri Ghiasi, Zulal Bingol, Mohammad Sadrosadati, Onur Mutlu"
+      venue: "DSN, 2025"
+    - title: "Analysis of metagenomic data"
+      selected: true
+      authors: "S. Liu, J. S. Rodriguez, V. Munteanu, C. Ronkowski, N. Kumar Sharma, M. Alser, F. Andreace, R. Blekhman, D. Blaszczyk, R. Chikhi, K. A. Crandall, K. Della Libera, D. Francis, A. Frolova, A. Shahar Gancz, N. E. Huntley, P. Jaiswal, T. Kosciolek, P. P. Labaj, W. Labaj, T. Luan, Ch. Mason, A. M. Moustafa, H. Subrahmaniam Muralidharan, O. Mutlu, N. Mansouri Ghiasi, A. Rahnavard, F. Sun, S. Tian, B. T. Tierney, E. Van Syoc, R. Vicedomini, J. P. Zackular, A. Zelikovsky, K. Zielińska, E. Ganda, E. R. Davenport, M. Pop, D. Koslicki, S. Mangul"
+      venue: "Nature Reviews Methods Primers, 2025"
+    - title: "Ariadne: Hotness-Aware and Size-Adaptive Compressed Swap Scheme for Mobile Devices"
+      authors: "Y. Liang, A. Shen, C. J. Xue, R. Pan, H. Mao, N. Mansouri Ghiasi, Q. Jiang, R. Nadig, L. Li, R. Ausavarungnirun, M. Sadrosadati, O. Mutlu"
+      venue: "HPCA, 2025"
+
+- year: 2024
+  items:
+    - title: "MegIS: High-Performance, Energy-Efficient, and Low-Cost Metagenomic Analysis with In-Storage Processing"
+      selected: true
+      authors: "N. Mansouri Ghiasi, M. Sadrosadati, H. Mustafa, A. Gollwitzer, C. Firtina, J. Eudine, H. Ma, J. Lindegger, M. Banu Cavlak, M. Alser, J. Park, O. Mutlu"
+      venue: "ISCA, 2024"
+    - title: "Understanding and Modeling the Performance Landscape of Ultra-Dense 3D Memory Systems"
+      selected: true
+      authors: "N. Mansouri Ghiasi, O. Mutlu"
+      venue: "PACT ACM Student Research Competition, 2024"
+    - title: "Label-Guided Seed-Chain-Extend Alignment on Annotated De Bruijn Graphs"
+      authors: "H. Mustafa, M. Karasikov, N. Mansouri Ghiasi, G. Rätsch, A. Kahles"
+      venue: "ISMB, 2024"
+    - title: "MATSA: An MRAM-Based Energy-Efficient Accelerator for Time Series Analysis"
+      authors: "I. Fernandez, C. Giannoula, A. Manglik, R. Quislant, N. Mansouri Ghiasi, J. Gomez-Luna, E. Gutierrez, O. Plata, O. Mutlu"
+      venue: "IEEE Access, 2024"
+
+- year: 2023
+  items:
+    - title: "Venice: Improving Solid-State Drive Parallelism at Low Cost via Conflict-Free Accesses"
+      selected: true
+      authors: "R. Nadig, M. Sadrosadati, H. Mao, N. Mansouri Ghiasi, A. Tavakkol, J. Park, H. Sarbazi-Azad, J. Luna, O. Mutlu"
+      venue: "ISCA, 2023"
+    - title: "RawHash: Enabling Fast and Accurate Real-Time Analysis of Raw Nanopore Signals for Large Genomes"
+      selected: true
+      authors: "C. Firtina, N. Mansouri Ghiasi, J. Lindegger, G. Singh, M. Banu Cavlak, H. Mao, O. Mutlu"
+      venue: "ISMB, 2023"
+    - title: "Scrooge: A Fast and Memory-Frugal Genomic Sequence Aligner for CPUs, GPUs, and ASICs"
+      authors: "J. Lindegger, D. Senol Cali, M. Alser, J. Gómez-Luna, N. Mansouri Ghiasi, O. Mutlu"
+      venue: "Bioinformatics, 2023"
+    - title: "TargetCall: Eliminating the Wasted Computation in Basecalling via Pre-Basecalling Filtering"
+      authors: "M. B. Cavlak, G. Singh, M. Alser, C. Firtina, J. Lindegger, M. Sadrosadati, N. Mansouri Ghiasi, C. Alkan, O. Mutlu"
+      venue: "APBC, 2023"
+    - title: "BLEND: A Fast, Memory-Efficient, and Accurate Mechanism to Find Fuzzy Seed Matches"
+      authors: "C. Firtina, J. Park, J. S. Kim, M. Alser, D. Senol Cali, T. Shahroodi, N. Mansouri Ghiasi, G. Singh, K. Kanellopoulos, C. Alkan, O. Mutlu"
+      venue: "NAR Genomics and Bioinformatics, 2023"
+
+- year: 2022
+  items:
+    - title: "GenStore: A High-Performance In-Storage Processing System for Genome Sequence Analysis"
+      selected: true
+      authors: "N. Mansouri Ghiasi, J. Park, H. Mustafa, J. Kim, A. Olgun, A. Gollwitzer, D. Senol Cali, C. Firtina, H. Mao, N. Almadhoun Alserr, R. Ausavarungnirun, N. Vijaykumar, M. Alser, O. Mutlu"
+      venue: "ASPLOS, 2022"
+    - title: "ALP: Alleviating CPU-Memory Data Movement Overheads in Memory-Centric Systems"
+      selected: true
+      authors: "N. Mansouri Ghiasi, N. Vijaykumar, G. F. Oliveira, L. Orosa, I. Fernandez, M. Sadrosadati, K. Kanellopoulos, N. Hajinazar, J. Gómez Luna, O. Mutlu"
+      venue: "IEEE TETC, 2022"
+    - title: "RevaMp3D: Architecting the Processor Core and Cache Hierarchy for Systems with Monolithically-Integrated Logic and Memory"
+      authors: "N. Mansouri Ghiasi, M. Sadrosadati, G. F. Oliveira, K. Kanellopoulos, R. Ausavarungnirun, J. Gómez Luna, A. Manglik, J. Ferreira, J. S. Kim, C. Giannoula, N. Vijaykumar, J. Park, O. Mutlu"
+      venue: "arXiv, 2022"
+    - title: "SeGraM: A Universal Hardware Accelerator for Genomic Sequence-to-Graph and Sequence-to-Sequence Mapping"
+      authors: "D. Senol Cali, K. Kanellopoulos, J. Lindegger, Z. Bingol, G. S. Kalsi, Z. Zuo, C. Firtina, M. B. Cavlak, J. Kim, N. Mansouri Ghiasi, G. Singh, J. Gomez-Luna, N. Almadhoun Alserr, M. Alser, S. Subramoney, C. Alkan, S. Ghose, O. Mutlu"
+      venue: "ISCA, 2022"
+
+- year: 2021
+  items:
+    - title: "CODIC: A Low-Cost Substrate for Enabling Custom In-DRAM Functionalities and Optimizations"
+      authors: "L. Orosa, Y. Wang, M. Sadrosadati, J. S. Kim, M. Patel, I. Puddu, H. Luo, K. Razavi, J. Gómez-Luna, H. Hassan, N. Mansouri Ghiasi, S. Ghose, O. Mutlu"
+      venue: "ISCA, 2021"
+    - title: "SIMDRAM: A Framework for Bit-Serial SIMD Processing Using DRAM"
+      authors: "N. Hajinazar, G. F. Oliveira, S. Gregorio, J. Dinis Ferreira, N. Mansouri Ghiasi, M. Patel, M. Alser, S. Ghose, J. Gómez-Luna, O. Mutlu"
+      venue: "ASPLOS, 2021"
+
+- year: 2020
+  items:
+    - title: "FIGARO: Improving System Performance via Fine-Grained In-DRAM Data Relocation and Caching"
+      authors: "Y. Wang, L. Orosa, X. Peng, Y. Guo, S. Ghose, M. Patel, J. S. Kim, J. Gómez-Luna, M. Sadrosadati, N. Mansouri Ghiasi, O. Mutlu"
+      venue: "MICRO, 2020"
+
+- year: 2019
+  items:
+    - title: "SMASH: Co-designing Software Compression and Hardware-Accelerated Indexing for Efficient Sparse Matrix Operations"
+      authors: "K. Kanellopoulos, N. Vijaykumar, C. Giannoula, R. Azizi Barzoki, S. Koppula, N. Mansouri Ghiasi, T. Shahroodi, J. Gómez-Luna, O. Mutlu"
+      venue: "MICRO, 2019"
+    - title: "CROW: A Low-Overhead Substrate for Improving DRAM Performance and Energy-Efficiency"
+      authors: "H. Hassan, M. Patel, J. S. Kim, A. G. Yaglikci, N. Vijaykumar, N. Mansouri Ghiasi, S. Ghose, O. Mutlu"
+      venue: "ISCA, 2019"
+
+- year: 2018
+  items:
+    - title: "Reducing DRAM Latency via Charge-Level-Aware Look-Ahead Partial Restoration"
+      authors: "Y. Wang, A. Tavakkol, L. Orosa, S. Ghose, N. Mansouri Ghiasi, M. Patel, J. S. Kim, H. Hassan, M. Sadrosadati, O. Mutlu"
+      venue: "MICRO, 2018"
+    - title: "FLIN: Enabling Fairness and Enhancing Performance in Modern NVMe Solid State Drives"
+      authors: "A. Tavakkol, M. Sadrosadati, S. Ghose, J. S. Kim, Y. Luo, Y. Wang, N. Mansouri Ghiasi, L. Orosa, J. Gómez-Luna, O. Mutlu"
+      venue: "ISCA, 2018"
+
+- year: 2017
+  items:
+    - title: "Efficient Critical Path Identification Based on Viability Analysis Method Considering Process Variations"
+      authors: "S. Abolmaali, N. Mansouri Ghiasi, M. Kamal, A. Afzali-Kusha, M. Pedram"
+      venue: "IEEE TVLSI, September 2017"

@@ -1,0 +1,43 @@
+# Newest first. HTML is allowed in `text` (e.g. links).
+- date: "June 2026"
+  text: "To be inducted into the ISCA Hall of Fame in 2026."
+- date: "May 2026"
+  text: '"Towards a decentralized future for open-science databases" is accepted to Nature Genetics Comments, 2026.'
+- date: "April 2026"
+  text: "Selected to participate in the 13th Heidelberg Laureate Forum (HLF) 2026."
+- date: "March 2026"
+  text: 'Defended my PhD thesis, "Storage-Centric System Designs for Enabling Fast, Efficient, and Low-Cost Genomic and Metagenomic Analyses." <a href="https://safari.ethz.ch/nika-mansouri-ghiasi-succussfully-defends-her-phd-thesis/">More info</a>.'
+- date: "March 2026"
+  text: "GRAINS is accepted to ISCA 2026."
+- date: "March 2026"
+  text: "RevaMp3D is accepted to ACM TACO 2026."
+- date: "January 2026"
+  text: 'We organized the second Arch4Health workshop in conjunction with HPCA 2026 in Sydney, Australia. <a href="https://events.safari.ethz.ch/hpca26-arch4health/">Workshop page</a>.'
+- date: "November 2025"
+  text: "SAGe is accepted to HPCA 2026."
+- date: "November 2025"
+  text: "Conduit is accepted to HPCA 2026."
+- date: "November 2025"
+  text: "GenPairX is accepted to HPCA 2026."
+- date: "October 2025"
+  text: 'We organized the first Arch4Health workshop in conjunction with MICRO 2025 in Seoul, South Korea. <a href="https://events.safari.ethz.ch/micro25-arch4health/">Workshop page</a>.'
+- date: "April 2025"
+  text: "MARS is accepted to ICS 2025."
+- date: "March 2025"
+  text: "REIS is accepted to ISCA 2025."
+- date: "March 2025"
+  text: "IMPACT is accepted to DSN 2025."
+- date: "January 2025"
+  text: '"Analysis of metagenomic data" is published in Nature Reviews Methods Primers, 2025.'
+- date: "November 2024"
+  text: 'Presented "Specializing the Storage System for Genomics and Metagenomics" at CWIDCA and the PIM Tutorial, in conjunction with MICRO 2024.'
+- date: "November 2024"
+  text: 'Presented "Storage-Centric Computing for Genomics and Metagenomics" at AMD, Austin.'
+- date: "November 2024"
+  text: "Ariadne is accepted to HPCA 2025."
+- date: "October 2024"
+  text: 'Presented "Storage-Centric Computing for Genomics and Metagenomics" at UCLA (host: Prof. Tony Nowatzki) and UCI (host: Prof. Alex Veidenbaum).'
+- date: "October 2024"
+  text: 'ACM SRC Grand Finalist for "Understanding and Modeling the Performance Landscape of Ultra-Dense 3D Memory Systems" at PACT SRC 2024, in collaboration with Prof. Subhasish Mitra (Stanford), Prof. Tathagata Srimani (CMU), and their research groups.'
+- date: "June 2024"
+  text: "Presented MegIS at ISCA 2024."

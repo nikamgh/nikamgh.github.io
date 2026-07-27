@@ -1,0 +1,21 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Full publication list of Nika Mansouri Ghiasi.
+---
+
+<h1 class="h1">Publications</h1>
+
+<section class="block">
+  <h2 class="h2">Research summary and initiative papers</h2>
+  {% include pub-flat.html items=site.data.overview %}
+</section>
+
+<section class="block">
+  <h2 class="h2">All publications</h2>
+  <p class="note">
+    Also on <a href="{{ site.scholar }}">Google Scholar</a>.
+  </p>
+  {% include pub-list.html groups=site.data.publications %}
+</section>
