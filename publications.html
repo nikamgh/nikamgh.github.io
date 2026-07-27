@@ -12,7 +12,7 @@ description: Full publication list of Nika Mansouri Ghiasi.
       Also on <a href="{{ site.scholar }}">Google Scholar</a>.
     </p>
 
-    <h2 class="sub">Research summary and initiative papers</h2>
+    <h2 class="sub">Research Summary and Initiative Papers</h2>
     <ul class="pubs">
       {% for pub in site.data.overview %}
         {% include pub-item.html pub=pub %}
@@ -20,6 +20,7 @@ description: Full publication list of Nika Mansouri Ghiasi.
     </ul>
 
     {% for group in site.data.publications %}
+    <h2 class="sub">Papers</h2>
     <h2 class="year">{{ group.year }}</h2>
     <ul class="pubs">
       {% for pub in group.items %}
