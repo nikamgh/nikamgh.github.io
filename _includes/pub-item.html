@@ -1,0 +1,24 @@
+{%- comment -%}
+One publication, Hugo-Blox citation style.
+Usage: {% include pub-item.html pub=pub %}
+Optional fields on the entry: url, doi, code, slides
+{%- endcomment -%}
+<li class="pub">
+  <p class="pub__authors">
+    {{ include.pub.authors
+       | replace: 'Nika Mansouri Ghiasi', '<b>Nika Mansouri Ghiasi</b>'
+       | replace: 'N. Mansouri Ghiasi', '<b>N. Mansouri Ghiasi</b>' }}
+  </p>
+  <p class="pub__title">
+    {% if include.pub.url %}<a href="{{ include.pub.url }}">{{ include.pub.title }}</a>{% else %}{{ include.pub.title }}{% endif %}
+  </p>
+  <p class="pub__venue">In <em>{{ include.pub.venue }}</em></p>
+  {% if include.pub.url or include.pub.doi or include.pub.code or include.pub.slides %}
+  <p class="pills">
+    {% if include.pub.url %}<a class="pill" href="{{ include.pub.url }}">PDF</a>{% endif %}
+    {% if include.pub.doi %}<a class="pill" href="{{ include.pub.doi }}">DOI</a>{% endif %}
+    {% if include.pub.code %}<a class="pill" href="{{ include.pub.code }}">Code</a>{% endif %}
+    {% if include.pub.slides %}<a class="pill" href="{{ include.pub.slides }}">Slides</a>{% endif %}
+  </p>
+  {% endif %}
+</li>

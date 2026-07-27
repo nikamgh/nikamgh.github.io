@@ -1,70 +1,256 @@
 ---
 layout: default
-title: Bio
+title: Home
 permalink: /
 ---
 
-<section class="intro">
-  <p class="lede">
-    I am a postdoctoral researcher in the <a href="https://safari.ethz.ch/">SAFARI Research Group</a>
-    at <a href="https://ethz.ch/en.html">ETH Zurich</a>. I completed my PhD in the same group, advised by
-    <a href="https://people.inf.ethz.ch/omutlu/">Prof. Onur Mutlu</a>, and spent one semester as a visiting
-    researcher at the <a href="https://rsg.stanford.edu/">Robust Systems Group</a> at
-    <a href="https://www.stanford.edu/">Stanford University</a>, working with
-    <a href="https://web.stanford.edu/~subh/">Prof. Subhasish Mitra</a>.
-  </p>
+<header class="hero">
+  <img class="hero__avatar" src="{{ '/assets/img/nika.jpg' | relative_url }}"
+       alt="Nika Mansouri Ghiasi" width="640" height="640">
+  <h1 class="hero__name">{{ site.title }}</h1>
+  <p class="hero__role">{{ site.role }}</p>
+  <p class="hero__org"><a href="{{ site.org_url }}">{{ site.org }}</a></p>
 
-  <p>
-    My research is at the intersection of computer architecture and computational biology. I work on
-    (1) storage systems, large-scale bioinformatics applications, and their interactions, and
-    (2) emerging technologies such as ultra-dense 3D integrated systems. I design high-performance,
-    energy-efficient, and low-cost systems that make the data-intensive applications behind modern
-    healthcare and life sciences practical at scale.
+  <p class="hero__links">
+    <a class="pill" href="{{ site.scholar }}">Google Scholar</a>
+    {% if site.github %}<a class="pill" href="{{ site.github }}">GitHub</a>{% endif %}
+    {% if site.linkedin %}<a class="pill" href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
+    {% if site.twitter %}<a class="pill" href="{{ site.twitter }}">Twitter</a>{% endif %}
+    <a class="pill" href="{{ site.email_link }}">Email</a>
   </p>
+</header>
 
-  <p>
-    Before my PhD I obtained my master's degree from ETH Zurich, also advised by Prof. Onur Mutlu, and my
-    bachelor's degree from the University of Tehran, advised by Prof. Ali Afzali-Kusha and Dr. Mehdi Kamal.
-  </p>
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="section__title">About</h2>
+
+    <div class="about">
+      <div class="about__bio">
+        <p>
+          I am a postdoctoral researcher in the <a href="https://safari.ethz.ch/">SAFARI Research Group</a>
+          at <a href="https://ethz.ch/en.html">ETH Zurich</a>. I completed my PhD in the same group, advised
+          by <a href="https://people.inf.ethz.ch/omutlu/">Prof. Onur Mutlu</a>, and spent one semester as a
+          visiting researcher at the <a href="https://rsg.stanford.edu/">Robust Systems Group</a> at
+          <a href="https://www.stanford.edu/">Stanford University</a>, working with
+          <a href="https://web.stanford.edu/~subh/">Prof. Subhasish Mitra</a>.
+        </p>
+        <p>
+          My research is at the intersection of computer architecture and computational biology. I work on
+          (1) storage systems, large-scale bioinformatics applications, and their interactions, and
+          (2) emerging technologies such as ultra-dense 3D integrated systems. I design high-performance,
+          energy-efficient, and low-cost systems that make the data-intensive applications behind modern
+          healthcare and life sciences practical at scale.
+        </p>
+        <p>
+          Before my PhD I obtained my master's degree from ETH Zurich, also advised by Prof. Onur Mutlu, and
+          my bachelor's degree from the University of Tehran, advised by Prof. Ali Afzali-Kusha and
+          Dr. Mehdi Kamal.
+        </p>
+      </div>
+
+      <aside class="about__side">
+        <h3 class="side__head">Interests</h3>
+        <ul class="side__list">
+          <li>Computer Architecture</li>
+          <li>Computational Biology</li>
+          <li>Storage Systems</li>
+          <li>Genomics and Metagenomics</li>
+          <li>3D Integrated Systems</li>
+        </ul>
+
+        <h3 class="side__head">Education</h3>
+        <ul class="side__list side__list--edu">
+          <li>
+            <span class="side__degree">PhD in Computer Science, 2026</span>
+            <span class="side__place">ETH Zurich, Switzerland</span>
+          </li>
+          <li>
+            <span class="side__degree">MSc in Electrical Engineering, 2019</span>
+            <span class="side__place">ETH Zurich, Switzerland</span>
+          </li>
+          <li>
+            <span class="side__degree">BSc in Electrical Engineering, 2016</span>
+            <span class="side__place">University of Tehran, Iran</span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
 </section>
 
-<section class="block">
-  <h2 class="h2">News</h2>
-  <ul class="news">
-    {% for item in site.data.news limit: 8 %}
-    <li class="news__item">
-      <span class="news__date">{{ item.date }}</span>
-      <span class="news__text">{{ item.text }}</span>
-    </li>
-    {% endfor %}
-  </ul>
+<section class="section section--alt" id="news">
+  <div class="container">
+    <h2 class="section__title">News</h2>
 
-  {% if site.data.news.size > 8 %}
-  <details class="more">
-    <summary>Earlier news</summary>
     <ul class="news">
-      {% for item in site.data.news offset: 8 %}
+      {% for item in site.data.news limit: 8 %}
       <li class="news__item">
         <span class="news__date">{{ item.date }}</span>
         <span class="news__text">{{ item.text }}</span>
       </li>
       {% endfor %}
     </ul>
-  </details>
-  {% endif %}
+
+    {% if site.data.news.size > 8 %}
+    <details class="more">
+      <summary>Earlier news</summary>
+      <ul class="news">
+        {% for item in site.data.news offset: 8 %}
+        <li class="news__item">
+          <span class="news__date">{{ item.date }}</span>
+          <span class="news__text">{{ item.text }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+  </div>
 </section>
 
-<section class="block">
-  <h2 class="h2">Selected publications</h2>
-  <p class="note">
-    Full list on the <a href="{{ '/publications/' | relative_url }}">publications page</a>
-    or on <a href="{{ site.scholar }}">Google Scholar</a>.
-  </p>
+<section class="section" id="publications">
+  <div class="container">
+    <h2 class="section__title">Selected publications</h2>
 
-  {% assign selected = "" | split: "" %}
-  {% for group in site.data.publications %}
-    {% assign hits = group.items | where: "selected", true %}
-    {% assign selected = selected | concat: hits %}
-  {% endfor %}
-  {% include pub-flat.html items=selected %}
+    <h3 class="sub">Research summary and initiative papers</h3>
+    <ul class="pubs">
+      {% for pub in site.data.overview %}
+        {% include pub-item.html pub=pub %}
+      {% endfor %}
+    </ul>
+
+    <h3 class="sub">Featured</h3>
+    <ul class="pubs">
+      {% for group in site.data.publications %}
+        {% for pub in group.items %}
+          {% if pub.selected %}{% include pub-item.html pub=pub %}{% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+
+    <p class="cta">
+      <a class="button" href="{{ '/publications/' | relative_url }}">All publications</a>
+      <a class="button button--ghost" href="{{ site.scholar }}">Google Scholar</a>
+    </p>
+  </div>
+</section>
+
+<section class="section section--alt" id="experience">
+  <div class="container">
+    <h2 class="section__title">Experience</h2>
+
+    <ol class="timeline">
+      <li class="tl">
+        <p class="tl__when">2023 &ndash; 2024</p>
+        <div class="tl__body">
+          <p class="tl__what">Visiting Researcher</p>
+          <p class="tl__where">Robust Systems Group, Stanford University &middot; Advisor: Prof. Subhasish Mitra</p>
+          <p>Understanding and modeling the performance landscape of ultra-dense 3D memory systems.</p>
+        </div>
+      </li>
+      <li class="tl">
+        <p class="tl__when">2015</p>
+        <div class="tl__body">
+          <p class="tl__what">Research Intern</p>
+          <p class="tl__where">Data-Intensive Scalable Computing Laboratory (DISCL), Texas Tech University &middot; Advisor: Prof. Yong Chen</p>
+          <p>Goblin-Core64 (GC64), a RISC-V extension for data-intensive applications; memory request
+          coalescing for hybrid memory cube devices.</p>
+        </div>
+      </li>
+      <li class="tl">
+        <p class="tl__when">2014</p>
+        <div class="tl__body">
+          <p class="tl__what">Research Intern</p>
+          <p class="tl__where">Test Group, Polytechnic University of Turin &middot; Advisors: Prof. Paolo Prinetto, Prof. Zain Navabi</p>
+          <p>Design and synthesis of a hardware camera lens distortion core using Xilinx Vivado
+          High-Level Synthesis.</p>
+        </div>
+      </li>
+      <li class="tl">
+        <p class="tl__when">2013</p>
+        <div class="tl__body">
+          <p class="tl__what">Undergraduate Researcher</p>
+          <p class="tl__where">CAD Research Group, University of Tehran &middot; Advisor: Prof. Zain Navabi</p>
+          <p>Design and implementation of an educational extension board for the Spartan-3 Xilinx FPGA.</p>
+        </div>
+      </li>
+    </ol>
+
+    <h3 class="sub">Theses</h3>
+    <ul class="side__list side__list--edu theses">
+      <li>
+        <span class="side__degree">Storage-Centric System Designs for Enabling Fast, Efficient, and Low-Cost Genomic and Metagenomic Analyses</span>
+        <span class="side__place">PhD thesis, ETH Zurich, 2026</span>
+      </li>
+      <li>
+        <span class="side__degree">Understanding the Opportunities and Bottlenecks in Near-Data Processing Engines</span>
+        <span class="side__place">MSc thesis, ETH Zurich, 2019</span>
+      </li>
+      <li>
+        <span class="side__degree">Finding Critical Paths in Digital Circuits in the Presence of Process Variations</span>
+        <span class="side__place">BSc thesis, University of Tehran, 2016</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="teaching">
+  <div class="container">
+    <h2 class="section__title">Teaching</h2>
+
+    <div class="cols">
+      <div>
+        <h3 class="sub">ETH Zurich &middot; Instructor</h3>
+        <ul class="ticks">
+          <li><a href="https://safari.ethz.ch/projects_and_seminars/spring2026/doku.php?id=arch_and_alg_for_health">Architectures &amp; Algorithms for Health &amp; Life Sciences</a></li>
+        </ul>
+
+        <h3 class="sub">ETH Zurich &middot; Teaching assistant</h3>
+        <ul class="ticks">
+          <li>Design of Digital Circuits</li>
+          <li>Computer Architecture</li>
+          <li>Seminar in Computer Architecture</li>
+          <li>Projects and Seminars on Genomics</li>
+          <li>Projects and Seminars on Processing-in-Memory</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="sub">University of Tehran &middot; Teaching assistant</h3>
+        <ul class="ticks">
+          <li>Computer Architecture</li>
+          <li>Digital Logic Design</li>
+          <li>Introduction to Computing Systems and Programming</li>
+          <li>Electronics I</li>
+          <li>Numerical Calculations</li>
+          <li>Probability and Statistics for Engineering</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="awards">
+  <div class="container">
+    <h2 class="section__title">Honors &amp; awards</h2>
+
+    <ul class="ticks ticks--wide">
+      <li>Selected to participate in the 13th Heidelberg Laureate Forum (HLF), 2026</li>
+      <li>To be inducted into the ISCA Hall of Fame, 2026</li>
+      <li>Recipient of the ETH Zurich Doc.Mobility Fellowship</li>
+      <li>Grand Finalist, ACM Student Research Competition at PACT 2024</li>
+      <li>University of Tehran Fellowship for BSc [2011&ndash;2016]</li>
+      <li>Ranked in the top 0.1% among more than 280,000 students in the National Universities Entrance Exam</li>
+      <li>Semifinalist at the Mathematics, Chemistry, and Literature National Olympiads [2010]</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container container--narrow">
+    <h2 class="section__title">Contact</h2>
+    <p class="contact">
+      <a href="{{ site.email_link }}">{{ site.email }}</a>
+    </p>
+    <p class="contact contact__where">{{ site.org }}</p>
+  </div>
 </section>

@@ -5,17 +5,28 @@ permalink: /publications/
 description: Full publication list of Nika Mansouri Ghiasi.
 ---
 
-<h1 class="h1">Publications</h1>
+<section class="section section--top">
+  <div class="container">
+    <h1 class="page__title">Publications</h1>
+    <p class="page__lede">
+      {% assign total = 0 %}{% for g in site.data.publications %}{% assign total = total | plus: g.items.size %}{% endfor %}
+      {{ total }} papers. Also on <a href="{{ site.scholar }}">Google Scholar</a>.
+    </p>
 
-<section class="block">
-  <h2 class="h2">Research summary and initiative papers</h2>
-  {% include pub-flat.html items=site.data.overview %}
-</section>
+    <h2 class="sub">Research summary and initiative papers</h2>
+    <ul class="pubs">
+      {% for pub in site.data.overview %}
+        {% include pub-item.html pub=pub %}
+      {% endfor %}
+    </ul>
 
-<section class="block">
-  <h2 class="h2">All publications</h2>
-  <p class="note">
-    Also on <a href="{{ site.scholar }}">Google Scholar</a>.
-  </p>
-  {% include pub-list.html groups=site.data.publications %}
+    {% for group in site.data.publications %}
+    <h2 class="year">{{ group.year }}</h2>
+    <ul class="pubs">
+      {% for pub in group.items %}
+        {% include pub-item.html pub=pub %}
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
 </section>

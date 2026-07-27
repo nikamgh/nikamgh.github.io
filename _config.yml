@@ -1,11 +1,20 @@
 title: Nika Mansouri Ghiasi
-tagline: Postdoctoral Researcher, SAFARI Research Group, ETH Zurich
+role: Postdoctoral Researcher
+org: SAFARI Research Group, ETH Zurich
+org_url: https://safari.ethz.ch/
 description: >-
   Nika Mansouri Ghiasi researches computer architecture and computational
   biology, designing high-performance, energy-efficient, and low-cost systems
   for genomics, metagenomics, and health applications.
+
 email: n.mansorighiasi [AT] gmail.com
+email_link: "mailto:n.mansorighiasi@gmail.com"
 scholar: https://scholar.google.com/citations?user=lMuBESUAAAAJ&hl=en
+
+# Fill these in to make the buttons appear; leave blank to hide them.
+github:
+linkedin:
+twitter:
 
 # Leave empty for a user site (nikamansourighiasi.github.io).
 # Set to "/repo-name" if you publish from a project repo instead.
@@ -13,12 +22,13 @@ baseurl: ""
 url: "https://nikamansourighiasi.github.io"
 
 nav:
-  - { name: Bio,                    url: /            }
-  - { name: Publications,           url: /publications/ }
-  - { name: Honors & Awards,        url: /honors/     }
-  - { name: Education & Experience, url: /education/  }
-  - { name: Teaching,               url: /teaching/   }
-
+  - { name: About,        url: "/#about" }
+  - { name: News,         url: "/#news" }
+  - { name: Publications, url: "/#publications" }
+  - { name: Experience,   url: "/#experience" }
+  - { name: Teaching,     url: "/#teaching" }
+  - { name: Awards,       url: "/#awards" }
+  - { name: Contact,      url: "/#contact" }
 
 exclude:
   - README.md
