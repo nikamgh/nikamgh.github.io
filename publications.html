@@ -19,8 +19,8 @@ description: Full publication list of Nika Mansouri Ghiasi.
       {% endfor %}
     </ul>
 
-    {% for group in site.data.publications %}
     <h2 class="sub">Papers</h2>
+    {% for group in site.data.publications %}
     <h2 class="year">{{ group.year }}</h2>
     <ul class="pubs">
       {% for pub in group.items %}

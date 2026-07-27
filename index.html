@@ -75,19 +75,13 @@ permalink: /
     <h2 class="section__title">Awards &amp; recognitions</h2>
 
     <ul class="awards">
-      {% for item in site.data.awards limit: 6 %}
+      {% for item in site.data.awards %}
       <li class="awards__item">
         <span class="awards__year">{{ item.year }}</span>
         <span class="awards__text">{{ item.text }}</span>
       </li>
       {% endfor %}
     </ul>
-
-    {% if site.data.awards.size > 6 %}
-    <p class="cta">
-      <a class="button button--ghost" href="{{ '/honors/' | relative_url }}">All awards &amp; recognitions</a>
-    </p>
-    {% endif %}
   </div>
 </section>
 
