@@ -7,7 +7,8 @@
   --accent:      #1565c0;
   --accent-dark: #0d47a1;
   --ink:         #232323;
-  --muted:       #a9505f;
+  --muted:       #5b6472;
+  --muted-warm:  #a9505f;
   --faint:       #828b98;
   --label:       #b02a3d;
   --flag:        #9c1f33;
@@ -488,7 +489,7 @@ img { max-width: 100%; }
 .tl__body p:last-child { margin-bottom: 0; }
 
 .tl__what  { font-weight: 500; font-size: 1.02rem !important; }
-.tl__where { color: var(--muted); font-size: .89rem !important; }
+.tl__where { color: var(--muted-warm); font-size: .89rem !important; }
 
 /* --- lists / columns ------------------------------------------- */
 
