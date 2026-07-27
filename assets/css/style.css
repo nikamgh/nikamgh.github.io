@@ -9,6 +9,10 @@
   --ink:         #232323;
   --muted:       #5b6472;
   --faint:       #828b98;
+  --label:       #2f4a6d;
+  --flag:        #b26a00;
+  --flag-line:   #e2952b;
+  --flag-bg:     #fff7e8;
   --paper:       #ffffff;
   --alt:         #f5f7fa;
   --rule:        #e4e8ed;
@@ -195,8 +199,8 @@ img { max-width: 100%; }
 .callout {
   margin: 2rem 0 0;
   padding: 1rem 1.2rem;
-  background: #eef4fc;
-  border-left: 3px solid var(--accent);
+  background: var(--flag-bg);
+  border-left: 3px solid var(--flag-line);
   border-radius: 0 5px 5px 0;
 }
 
@@ -208,7 +212,7 @@ img { max-width: 100%; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1em;
-  color: var(--accent);
+  color: var(--flag);
 }
 
 .about__grid {
@@ -288,11 +292,11 @@ img { max-width: 100%; }
 
 .sub {
   margin: 2rem 0 .9rem;
-  font-size: .78rem;
+  font-size: .8rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .09em;
-  color: var(--faint);
+  color: var(--label);
 }
 
 .sub:first-of-type { margin-top: 0; }
@@ -322,11 +326,11 @@ img { max-width: 100%; }
 
 .side__head {
   margin: 0 0 .7rem;
-  font-size: .78rem;
+  font-size: .8rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .09em;
-  color: var(--faint);
+  color: var(--label);
 }
 
 .side__list {
