@@ -17,7 +17,6 @@ permalink: /
 
       <p class="profile__links">
         <a class="pill" href="{{ site.scholar }}">Google Scholar</a>
-        {% if site.github %}<a class="pill" href="{{ site.github }}">GitHub</a>{% endif %}
         {% if site.linkedin %}<a class="pill" href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
         {% if site.twitter %}<a class="pill" href="{{ site.twitter }}">Twitter</a>{% endif %}
       </p>
@@ -70,6 +69,27 @@ permalink: /
 
   </div>
 </header>
+
+<section class="section">
+  <div class="container container--mid">
+    <h2 class="section__title">Awards &amp; recognitions</h2>
+
+    <ul class="awards">
+      {% for item in site.data.awards limit: 6 %}
+      <li class="awards__item">
+        <span class="awards__year">{{ item.year }}</span>
+        <span class="awards__text">{{ item.text }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+
+    {% if site.data.awards.size > 6 %}
+    <p class="cta">
+      <a class="button button--ghost" href="{{ '/honors/' | relative_url }}">All awards &amp; recognitions</a>
+    </p>
+    {% endif %}
+  </div>
+</section>
 
 <section class="section section--alt">
   <div class="container">
@@ -124,21 +144,5 @@ permalink: /
       <a class="button" href="{{ '/publications/' | relative_url }}">All publications</a>
       <a class="button button--ghost" href="{{ site.scholar }}">Google Scholar</a>
     </p>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="container">
-    <h2 class="section__title">Honors &amp; awards</h2>
-
-    <ul class="ticks ticks--wide">
-      <li>Selected to participate in the 13th Heidelberg Laureate Forum (HLF), 2026</li>
-      <li>To be inducted into the ISCA Hall of Fame, 2026</li>
-      <li>Recipient of the ETH Zurich Doc.Mobility Fellowship</li>
-      <li>Grand Finalist, ACM Student Research Competition at PACT 2024</li>
-      <li>University of Tehran Fellowship for BSc [2011&ndash;2016]</li>
-      <li>Ranked in the top 0.1% among more than 280,000 students in the National Universities Entrance Exam</li>
-      <li>Semifinalist at the Mathematics, Chemistry, and Literature National Olympiads [2010]</li>
-    </ul>
   </div>
 </section>

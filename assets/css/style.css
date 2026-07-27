@@ -391,6 +391,30 @@ img { max-width: 100%; }
 
 .more { margin-top: 1.1rem; }
 
+/* --- awards ---------------------------------------------------- */
+
+.awards { margin: 0; padding: 0; list-style: none; }
+
+.awards__item {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: .6rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.awards__item:last-child { border-bottom: 0; }
+
+.awards__year {
+  font-size: .82rem;
+  font-weight: 500;
+  color: var(--label);
+  padding-top: .1em;
+  white-space: nowrap;
+}
+
+.awards__text { font-size: .95rem; }
+
 .more summary {
   cursor: pointer;
   font-size: .85rem;
@@ -488,6 +512,19 @@ img { max-width: 100%; }
 
 .ticks--wide { max-width: 46rem; margin: 0 auto; }
 
+.ticks__when {
+  display: block;
+  font-size: .85rem;
+  color: var(--faint);
+}
+
+.sub__when {
+  margin-left: .5rem;
+  font-weight: 400;
+  letter-spacing: .05em;
+  color: var(--faint);
+}
+
 /* --- contact & footer ------------------------------------------ */
 
 .contact { margin: 0; text-align: center; font-size: 1.05rem; }
@@ -552,6 +589,7 @@ img { max-width: 100%; }
   .section__title { font-size: 1.4rem; margin-bottom: 1.5rem; }
 
   .news__item,
+  .awards__item,
   .tl {
     grid-template-columns: minmax(0, 1fr);
     gap: .15rem;

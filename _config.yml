@@ -24,9 +24,10 @@ url: "https://nikamansourighiasi.github.io"
 nav:
   - { name: Bio,                    url: /             }
   - { name: Publications,           url: /publications/ }
-  - { name: Honors & Awards,        url: /honors/      }
+  - { name: Awards,                 url: /honors/      }
   - { name: Education & Experience, url: /education/   }
   - { name: Teaching,               url: /teaching/    }
+  - { name: Services,               url: /services/    }
 
 exclude:
   - README.md
