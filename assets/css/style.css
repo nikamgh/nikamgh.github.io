@@ -208,8 +208,9 @@ img { max-width: 100%; }
 
 .callout p { margin: 0; font-size: .98rem; }
 
-/* when the callout leads the column, above the About heading */
-.callout--lead { margin: .2rem 0 1.6rem; }
+/* Leads the right-hand column. The 4px top offset matches the photo's white
+   border, so the callout's top edge lines up with the visible top of the image. */
+.callout--lead { margin: 4px 0 1.6rem; }
 
 .callout__label {
   margin-bottom: .3rem !important;
