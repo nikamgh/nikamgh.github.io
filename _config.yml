@@ -12,7 +12,9 @@ email_link: "mailto:n.mansorighiasi@gmail.com"
 scholar: https://scholar.google.com/citations?user=lMuBESUAAAAJ&hl=en
 
 # Fill these in to make the buttons appear; leave blank to hide them.
-github:
+# NOTE: do not use a plain `github:` key here. GitHub Pages reserves `site.github`
+# for repository metadata, so it is never empty and would override this value.
+github_url:
 linkedin: https://www.linkedin.com/in/nika-mansouri-ghiasi-4b521ba2/
 twitter:
 
