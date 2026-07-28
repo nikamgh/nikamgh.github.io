@@ -487,6 +487,7 @@ img { max-width: 100%; }
 
 .tl__body p { margin: 0 0 .3rem; font-size: .95rem; }
 .tl__body p:last-child { margin-bottom: 0; }
+.tl__body .ticks { margin-top: .4rem; }
 
 .tl__what  { font-weight: 500; font-size: 1.02rem !important; }
 .tl__where { color: var(--muted-warm); font-size: .89rem !important; }
