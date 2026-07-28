@@ -208,6 +208,9 @@ img { max-width: 100%; }
 
 .callout p { margin: 0; font-size: .98rem; }
 
+/* when the callout leads the column, above the About heading */
+.callout--lead { margin: .2rem 0 1.6rem; }
+
 .callout__label {
   margin-bottom: .3rem !important;
   font-size: .72rem !important;
