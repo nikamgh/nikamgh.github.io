@@ -16,10 +16,14 @@ github:
 linkedin: https://www.linkedin.com/in/nika-mansouri-ghiasi-4b521ba2/
 twitter:
 
-# Leave empty for a user site (nikamansourighiasi.github.io).
+# Leave empty for a user site (nikamgh.github.io).
 # Set to "/repo-name" if you publish from a project repo instead.
 baseurl: ""
-url: "https://nikamansourighiasi.github.io"
+url: "https://nikamgh.github.io"
+
+# Generates sitemap.xml at build time (whitelisted by GitHub Pages).
+plugins:
+  - jekyll-sitemap
 
 nav:
   - { name: Bio,                    url: /             }

@@ -5,12 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title and page.url != "/" %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="author" content="{{ site.title }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title and page.url != '/' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:type" content="profile">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:image" content="{{ '/assets/img/nika.jpeg' | absolute_url }}">
   <meta name="twitter:card" content="summary">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.title }}",
+    "url": "{{ '/' | absolute_url }}",
+    "image": "{{ '/assets/img/nika.jpeg' | absolute_url }}",
+    "jobTitle": "{{ site.role }}",
+    "description": {{ site.description | strip_newlines | strip | jsonify }},
+    "affiliation": {
+      "@type": "Organization",
+      "name": "{{ site.org }}",
+      "url": "{{ site.org_url }}"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "ETH Zurich" },
+      { "@type": "CollegeOrUniversity", "name": "University of Tehran" }
+    ],
+    "knowsAbout": [
+      "Computer Architecture",
+      "Storage and Memory Systems",
+      "Computational Biology",
+      "Genomics",
+      "Metagenomics"
+    ],
+    "sameAs": [
+      "{{ site.scholar }}"{% if site.linkedin %},
+      "{{ site.linkedin }}"{% endif %}{% if site.github %},
+      "{{ site.github }}"{% endif %}
+    ]
+  }
+  </script>
 
   <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
