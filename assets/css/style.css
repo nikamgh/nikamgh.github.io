@@ -487,10 +487,55 @@ img { max-width: 100%; }
 
 .tl__body p { margin: 0 0 .3rem; font-size: .95rem; }
 .tl__body p:last-child { margin-bottom: 0; }
-.tl__body .ticks { margin-top: .4rem; }
 
 .tl__what  { font-weight: 500; font-size: 1.02rem !important; }
 .tl__where { color: var(--muted-warm); font-size: .89rem !important; }
+
+/* --- roles (CV-style research experience) ---------------------- */
+
+.roles { margin: 0; padding: 0; list-style: none; }
+
+.role {
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.role:last-child { border-bottom: 0; padding-bottom: 0; }
+
+.role__org {
+  margin: 0 0 .3rem;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.role__adv {
+  font-weight: 400;
+  font-size: .89rem;
+  color: var(--muted-warm);
+}
+
+.role__title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: .3rem 1rem;
+  margin: 0 0 .1rem;
+  font-size: .95rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.role__when {
+  font-style: normal;
+  font-size: .87rem;
+  font-weight: 500;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.role .ticks { margin-top: .45rem; }
 
 /* --- lists / columns ------------------------------------------- */
 
