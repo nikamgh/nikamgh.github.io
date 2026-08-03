@@ -541,6 +541,43 @@ img { max-width: 100%; }
 
 .role .ticks { margin-top: .45rem; }
 
+/* --- talks ------------------------------------------------------ */
+
+.talks { margin: 0; padding: 0; list-style: none; }
+
+.talk {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.talk:last-child { border-bottom: 0; padding-bottom: 0; }
+
+.talk__title {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.talk__slides {
+  font-size: .85rem;
+  font-weight: 400;
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+.talk__note {
+  display: inline-block;
+  margin-left: .4rem;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--label);
+}
+
+.talk .ticks { margin-top: .35rem; }
+
 /* --- lists / columns ------------------------------------------- */
 
 .cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem; }

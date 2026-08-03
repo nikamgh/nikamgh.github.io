@@ -30,6 +30,7 @@ plugins:
 nav:
   - { name: Bio,                    url: /             }
   - { name: Publications,           url: /publications/ }
+  - { name: Talks,                  url: /talks/       }
   - { name: Awards,                 url: /honors/      }
   - { name: Education & Experience, url: /education/   }
   - { name: Teaching,               url: /teaching/    }
