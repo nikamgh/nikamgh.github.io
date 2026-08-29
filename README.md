@@ -33,7 +33,7 @@ If you publish from a project repo instead (e.g. `github.com/<user>/website`), s
 
 Your name is bolded automatically. The list is generated from `main-cv.tex`, so keep the two in sync when you add papers.
 
-To host a PDF yourself rather than linking out, drop it in `assets/papers/` and set `url: /assets/papers/<name>.pdf`. See `assets/papers/README.md` — five entries are already pointed there and need their files downloaded once.
+To host a PDF yourself rather than linking out, drop it in `assets/pubs/` and set `url: /assets/pubs/<name>.pdf`. See `assets/pubs/README.md` — five entries are already pointed there and need their files downloaded once.
 
 ## Add a page
 
@@ -65,7 +65,7 @@ Copy `honors.html`, change the `title` and `permalink` in the front matter, then
 | `assets/css/style.css` | All styling; palette is the `:root` block at the top |
 | `assets/js/site.js` | Mobile menu toggle |
 | `assets/img/nika.jpeg` | Headshot |
-| `assets/papers/` | Self-hosted paper PDFs |
+| `assets/pubs/` | Self-hosted paper PDFs |
 
 ## Change the accent colour
 
