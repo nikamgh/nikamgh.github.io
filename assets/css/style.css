@@ -221,6 +221,20 @@ img { max-width: 100%; }
   color: var(--flag);
 }
 
+/* Arch4Health paragraph with the initiative logo floated beside it. */
+.initiative { margin: 0 0 1.1rem; }
+.initiative::after { content: ""; display: table; clear: both; }
+.initiative p { margin: 0; }
+
+.initiative__logo {
+  float: right;
+  width: 11.5rem;
+  margin: .2rem 0 .5rem 1.4rem;
+}
+
+.initiative__logo img { display: block; width: 100%; height: auto; }
+.initiative__logo:hover { opacity: .85; }
+
 .about__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -637,6 +651,7 @@ img { max-width: 100%; }
   .section__title--left { text-align: center; }
   .about__grid { gap: 1.5rem; }
   .cols  { grid-template-columns: minmax(0, 1fr); gap: 1.75rem; }
+  .initiative__logo { float: none; width: 10rem; margin: 0 auto .8rem; display: block; }
 }
 
 @media (max-width: 780px) {
