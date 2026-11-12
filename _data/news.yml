@@ -1,9 +1,9 @@
 # Newest first. HTML is allowed in `text` (e.g. links).
 # Conventions: talk titles in "<em>...</em>"; conference/workshop names in <strong> with a link; university names in <strong>.
 - date: "November 2026"
-  text: 'Will present "<em>Fast, Efficient, and Low-Cost Computing Systems for Health and Life Sciences</em>" at the <strong><a href="https://sites.google.com/bu.edu/micro-showcase2026">Job Candidate Showcase</a></strong> at <strong><a href="https://microarch.org/micro59/">MICRO 2026</a></strong> in Athens, Greece.'
+  text: 'Presented "<em>Fast, Efficient, and Low-Cost Computing Systems for Health and Life Sciences</em>" at the <strong><a href="https://sites.google.com/bu.edu/micro-showcase2026">Job Candidate Showcase</a></strong> at <strong><a href="https://microarch.org/micro59/">MICRO 2026</a></strong> in Athens, Greece.'
 - date: "November 2026"
-  text: 'We will organize the fourth <strong><a href="https://events.safari.ethz.ch/micro26-arch4health/">Arch4Health</a></strong> workshop in conjunction with <strong><a href="https://microarch.org/micro59/">MICRO 2026</a></strong> in Athens, Greece.'
+  text: 'We organized the fourth <strong><a href="https://events.safari.ethz.ch/micro26-arch4health/">Arch4Health</a></strong> workshop in conjunction with <strong><a href="https://microarch.org/micro59/">MICRO 2026</a></strong> in Athens, Greece.'
 - date: "October 2026"
   text: 'Presented "<em>Fast, Efficient, and Low-Cost Computing Systems for Health and Life Sciences</em>" at <strong>EPFL</strong>.'
 - date: "October 2026"
